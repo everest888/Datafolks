@@ -1,0 +1,132 @@
+h1,h4,p,button,header,main,footer,img {
+    margin-top: 20px !important;
+}
+
+@font-face {
+    font-family: "dinpro-regular";  
+    src: url("fonts/dinpro-regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "DINPro-Bold";  
+    src: url("fonts/DINPro-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+@font-face {
+    font-family: "DINPro-Medium";  
+    src: url("fonts/DINPro-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+@font-face {
+    font-family: "MYRIADPRO-REGULAR";  
+    src: url("fonts/MYRIADPRO-REGULAR.OTF") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+h1 {
+    font-family: "dinpro-regular";
+}
+footer>h1 {
+    font-family: "DINPro-Bold"; 
+}
+h4 {
+    font-family: "MYRIADPRO-REGULAR"; 
+}
+
+header {
+    width: 90%;
+    text-align: center;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+.btn-1  {
+    width: 35% !important;
+    margin: 40px auto !important;
+}
+.btn-outline-info {
+    border-color:#00264c !important;
+    color:#00264c !important;
+}
+
+
+.modal.show .modal-dialog {
+    transform: translate(0,10em) !important;
+    -webkit-transform: translate(0,10em) !important;
+    -moz-transform: translate(0,10em) !important;
+    -ms-transform: translate(0,10em) !important;
+    -o-transform: translate(0,10em) !important;
+}
+
+footer{
+    background: #0d1b2b;
+    height: 450px;
+    padding-top: 50px;
+    color:#fff;
+}
+
+.form-control{
+    margin-top: 5px !important;
+    background: #243448 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border: none !important;
+    font-size: 12px !important;
+    color: #fff !important;
+}
+footer>input{
+    color: #fff !important;
+}
+.btn-footer {
+    margin-top: 5px !important;
+    background: none !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border: 2px solid #fff !important;
+    font-family: "DINPro-Bold";
+    padding: 10px 35px;
+}
+
+
+
+
+@media (max-width:1024px) {
+    footer {
+        height: 110% !important;
+        padding-bottom: 20px;
+    };
+};
+
+@media (max-width:767px) {
+    footer {
+        height: 110% !important;
+        padding-bottom: 20px;
+    };
+};
+
+@media (max-width:575px) {
+    
+};
+ 
